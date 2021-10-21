@@ -9,19 +9,19 @@ message = "This is string to be reversed, This is " + \
 
 def reverseString(string):
   lengthOfString = len(string) - 1
-  tempString = ""
+  reversed = ""
   while lengthOfString >= 0:
-    tempString = tempString + string[lengthOfString]
+    reversed = reversed + string[lengthOfString]
     lengthOfString -= 1 
 
-  return tempString
+  return reversed
 
 if __name__ == '__main__':
   
   print("[+] The reverse string is ")
   print("\n-------------------------\n")
   print(reverseString(message))
-  print("[+] The reverse string is ")
+  print("[+] Reverse the  reverse string is ")
   print("\n-------------------------\n")
   print(reverseString(reverseString(message)))
 
