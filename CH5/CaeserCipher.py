@@ -46,5 +46,5 @@ if __name__ == '__main__':
   print("[+] Cipher text of 'This is my world' is \
       {}".format((encrypt('This is my world'))))
   print("[+] Decrypt the strin 'Wklv lv p1 zruog' is {}".format(decrypt(\
-  'Wklv lv p1 zruog')))
+  'Kv?uqwpfu?rncwukdng?gpqwijB',2)))
 
